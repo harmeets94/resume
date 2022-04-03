@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* The following style removes tap highlight on images in mobile screens. */
+img{      
+    -webkit-tap-highlight-color: transparent;
+     }
+
+body
+{
+    position: relative;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+/* Custom Classes */
+.flex-grow-2
+{
+    flex-grow: 2;
+}
+
+.flex-grow-3
+{
+    flex-grow: 3;
+}
+
+.hobby_icon:hover .icon_hover
+{
+    filter: invert(9%) sepia(89%) saturate(7456%) hue-rotate(267deg) brightness(75%) contrast(92%);
+}
+
+

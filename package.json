@@ -1,0 +1,22 @@
+{
+  "name": "my_resume",
+  "version": "1.0.0",
+  "description": "Hey! I'm Gaurav and this my latest resume. Hope you like it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/922Gaurav/Resume.git"
+  },
+  "keywords": [
+    "Resume"
+  ],
+  "author": "Gaurav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/922Gaurav/Resume/issues"
+  },
+  "homepage": "https://github.com/922Gaurav/Resume#readme"
+}
