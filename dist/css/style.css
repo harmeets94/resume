@@ -32,12 +32,6 @@
 4. Use the user's configured `sans` font-family by default.
 */
 
-@font-face {
-  font-family: Montserrat;
-  src: url('../../fonts/Montserrat.ttf');
-}
-
-
 html {
   line-height: 1.5;
   /* 1 */
@@ -48,7 +42,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: Montserrat, sans-serif;
+  font-family: Poppins, sans-serif;
   /* 4 */
 }
 
@@ -508,12 +502,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mb-8 {
@@ -528,10 +522,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 2rem;
 }
 
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
 .flex {
   display: flex;
 }
@@ -544,24 +534,28 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-.h-32 {
-  height: 8rem;
+.h-52 {
+  height: 13rem;
 }
 
 .h-5 {
   height: 1.25rem;
 }
 
-.h-12 {
-  height: 3rem;
-}
-
 .h-9 {
   height: 2.25rem;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .h-10 {
   height: 2.5rem;
+}
+
+.h-4 {
+  height: 1rem;
 }
 
 .h-6 {
@@ -572,20 +566,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 2rem;
 }
 
-.h-52 {
-  height: 13rem;
-}
-
-.h-4 {
-  height: 1rem;
-}
-
 .w-full {
   width: 100%;
 }
 
-.w-32 {
-  width: 8rem;
+.w-52 {
+  width: 13rem;
 }
 
 .w-5 {
@@ -596,28 +582,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 91.666667%;
 }
 
-.w-2\/4 {
-  width: 50%;
-}
-
-.w-2\/3 {
-  width: 66.666667%;
+.w-9 {
+  width: 2.25rem;
 }
 
 .w-12 {
   width: 3rem;
 }
 
-.w-9 {
-  width: 2.25rem;
-}
-
 .w-10 {
   width: 2.5rem;
 }
 
-.w-auto {
-  width: auto;
+.w-4 {
+  width: 1rem;
 }
 
 .w-6 {
@@ -626,14 +604,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-8 {
   width: 2rem;
-}
-
-.w-52 {
-  width: 13rem;
-}
-
-.w-4 {
-  width: 1rem;
 }
 
 .shrink-0 {
@@ -691,8 +661,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: space-around;
 }
 
-.gap-10 {
-  gap: 2.5rem;
+.gap-4 {
+  gap: 1rem;
 }
 
 .gap-5 {
@@ -703,8 +673,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 0.5rem;
 }
 
-.gap-4 {
-  gap: 1rem;
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .gap-7 {
@@ -717,10 +691,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-6 {
   gap: 1.5rem;
-}
-
-.gap-3 {
-  gap: 0.75rem;
 }
 
 .overflow-hidden {
@@ -743,11 +713,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(255 255 255 / 0.2);
 }
 
-.border-theme_drk_blue {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 49 71 / var(--tw-border-opacity));
-}
-
 .border-theme_blue_font {
   --tw-border-opacity: 1;
   border-color: rgb(45 175 232 / var(--tw-border-opacity));
@@ -765,11 +730,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-white\/\[0\.1\] {
   background-color: rgb(255 255 255 / 0.1);
-}
-
-.bg-theme_drk_blue {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 49 71 / var(--tw-bg-opacity));
 }
 
 .bg-gray-100 {
@@ -792,50 +752,25 @@ Ensure the default browser behavior of the `hidden` attribute.
      object-fit: cover;
 }
 
-.object-center {
-  -o-object-position: center;
-     object-position: center;
-}
-
 .object-top {
   -o-object-position: top;
      object-position: top;
-}
-
-.p-0 {
-  padding: 0px;
-}
-
-.p-4 {
-  padding: 1rem;
-}
-
-.p-3 {
-  padding: 0.75rem;
-}
-
-.p-5 {
-  padding: 1.25rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
-}
-
-.p-1 {
-  padding: 0.25rem;
 }
 
 .p-10 {
   padding: 2.5rem;
 }
 
-.pt-10 {
-  padding-top: 2.5rem;
+.p-3 {
+  padding: 0.75rem;
 }
 
-.pb-10 {
-  padding-bottom: 2.5rem;
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .pb-4 {
@@ -850,12 +785,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 0.75rem;
 }
 
-.pr-5 {
-  padding-right: 1.25rem;
-}
-
 .pl-3 {
   padding-left: 0.75rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .pt-2 {
@@ -866,10 +805,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 0.25rem;
 }
 
-.pt-3 {
-  padding-top: 0.75rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -877,11 +812,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
 }
 
 .text-sm {
@@ -894,40 +824,37 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
-.font-extralight {
-  font-weight: 200;
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
   font-weight: 700;
 }
 
-.font-medium {
-  font-weight: 500;
-}
-
 .font-semibold {
   font-weight: 600;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .uppercase {
   text-transform: uppercase;
 }
 
-.leading-3 {
-  line-height: .75rem;
-}
-
 .tracking-wide {
   letter-spacing: 0.025em;
 }
 
-.tracking-widest {
-  letter-spacing: 0.1em;
-}
-
 .tracking-wider {
   letter-spacing: 0.05em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
 }
 
 .text-white {
@@ -940,25 +867,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.text-gray-700 {
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
-}
-
-.text-theme_drk_blue {
-  --tw-text-opacity: 1;
-  color: rgb(0 49 71 / var(--tw-text-opacity));
-}
-
 .text-theme_blue_font {
   --tw-text-opacity: 1;
   color: rgb(45 175 232 / var(--tw-text-opacity));
-}
-
-.shadow-2xl {
-  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .shadow-lg-dark {
@@ -994,6 +905,31 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 img{
   -webkit-tap-highlight-color: transparent;
+}
+
+body
+{
+  position: relative;
+  overflow-x: hidden;
+  min-height: 100vh;
+  font-family: Poppins, sans-serif;
+}
+
+/* Custom Classes */
+
+.flex-grow-2
+{
+  flex-grow: 2;
+}
+
+.flex-grow-3
+{
+  flex-grow: 3;
+}
+
+.hobby_icon:hover .icon_hover
+{
+  filter: invert(9%) sepia(89%) saturate(7456%) hue-rotate(267deg) brightness(75%) contrast(92%);
 }
 
 body
@@ -1037,12 +973,12 @@ body
     display: none;
   }
 
-  .md\:h-40 {
-    height: 10rem;
-  }
-
   .md\:h-4 {
     height: 1rem;
+  }
+
+  .md\:h-6 {
+    height: 1.5rem;
   }
 
   .md\:h-12 {
@@ -1057,44 +993,28 @@ body
     height: 2rem;
   }
 
-  .md\:h-6 {
-    height: 1.5rem;
-  }
-
   .md\:w-11\/12 {
     width: 91.666667%;
-  }
-
-  .md\:w-3\/10 {
-    width: 30%;
-  }
-
-  .md\:w-40 {
-    width: 10rem;
-  }
-
-  .md\:w-4 {
-    width: 1rem;
-  }
-
-  .md\:w-7\/10 {
-    width: 70%;
   }
 
   .md\:w-2\/5 {
     width: 40%;
   }
 
-  .md\:w-3\/5 {
-    width: 60%;
+  .md\:w-4 {
+    width: 1rem;
+  }
+
+  .md\:w-6 {
+    width: 1.5rem;
   }
 
   .md\:w-12 {
     width: 3rem;
   }
 
-  .md\:w-auto {
-    width: auto;
+  .md\:w-3\/5 {
+    width: 60%;
   }
 
   .md\:w-10 {
@@ -1105,20 +1025,12 @@ body
     width: 2rem;
   }
 
-  .md\:w-6 {
-    width: 1.5rem;
-  }
-
   .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .md\:flex-row {
     flex-direction: row;
-  }
-
-  .md\:flex-col {
-    flex-direction: column;
   }
 
   .md\:items-start {
@@ -1139,10 +1051,6 @@ body
 
   .md\:border-b {
     border-bottom-width: 1px;
-  }
-
-  .md\:p-5 {
-    padding: 1.25rem;
   }
 
   .md\:p-2 {
@@ -1187,10 +1095,6 @@ body
 
   .md\:tracking-widest {
     letter-spacing: 0.1em;
-  }
-
-  .md\:tracking-wide {
-    letter-spacing: 0.025em;
   }
 }
 
