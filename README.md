@@ -1,3 +1,3 @@
 # Resume
-Hey! I'm Gaurav and this my latest resume. Hope you like it.
+Hey! I'm Harmeet Singh and this my latest resume. Hope you like it.
 # resume
